@@ -90,13 +90,13 @@ p {
 
 #comparison {
     position: relative;
-    width: 800px;
-    height: 700px;
+    display:block;
+    width: 90%;
+    height: 100%;
     background: white;
     top:100px;
-    left:50%;
-    margin-left:-400px;
-    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
     padding:40px;
 }
 
@@ -121,9 +121,6 @@ p {
     right:50px;
 }
 
-#comparison_small {
-    display:none;
-}
 
 #data {
     position: relative;
@@ -206,24 +203,4 @@ tr:nth-child(even) {background-color: #f2f2f2;}
         margin-right:10px;       
         padding:40px;
     }
-
-}
-
-@media (max-width:800px) {
-    #comparison {
-        display:none;
-    }
-    #comparison_small {
-        display:block;
-        position: relative;
-        width: 700px;
-        height: 2300px;
-        background: white;
-        top:100px;
-        left:50%;
-        margin-left:-350px;
-        margin-bottom:50px;
-        padding:40px;
-    }
-
 }
